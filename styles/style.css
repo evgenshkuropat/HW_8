@@ -61,14 +61,14 @@
     margin-bottom: 15px;
     padding: 10px 30px;
     border-radius: 10px;
-    background-color: green;
+    background-color: #3D854D;
     color: white;
     cursor: pointer;
 }
 
 .item__right button i{
     margin-left: 10px;
-    background-color: green;
+    background-color: #3D854D;
     color: white;
     font-weight: bold;
 }
@@ -112,7 +112,7 @@
 
 .block h3{
     margin: 5px 5px;
-    color: green;
+    color: #3D854D;
     font-size: 14px;
     font-weight: bold;
 }
