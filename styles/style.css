@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cera Pro DEMO", sans-serif ;
+}
+
+.catalog{
+    padding: 50px 30px;
+    max-width: 1200px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.block__top{
+    display: flex;
+    gap: 25px;
+}
+
+.catalog__left, .catalog__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.item__left{
+    margin-left: 15px;
+    opacity: 0.9;
+}
+
+.item__right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 15px;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.item__right h1{
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item__right p{
+    text-align: end;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+.item__right button{
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.item__right button i{
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.block__down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.block__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.block__title h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.block__title p{
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+.block__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.block h3{
+    margin: 5px 5px;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.block h2{
+    margin: 5px 5px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.block p{
+    margin: 5px 5px;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.80);
+}
+
+.block button{
+    font-weight: bold;
+    text-align: center;
+}
