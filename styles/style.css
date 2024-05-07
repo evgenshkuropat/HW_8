@@ -61,14 +61,14 @@
     margin-bottom: 15px;
     padding: 10px 30px;
     border-radius: 10px;
-    background-color: #3D854D;
+    background-color: #46A358;
     color: white;
     cursor: pointer;
 }
 
 .item__right button i{
     margin-left: 10px;
-    background-color: #3D854D;
+    background-color: #46A358;
     color: white;
     font-weight: bold;
 }
@@ -108,11 +108,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgba(128, 128, 128, 0.1);
+    margin-bottom: 30px;
 }
 
 .block h3{
     margin: 5px 5px;
-    color: #3D854D;
+    color: #46A358;
     font-size: 14px;
     font-weight: bold;
 }
@@ -132,4 +133,18 @@
 .block button{
     font-weight: bold;
     text-align: center;
+}
+
+.active {
+    color: #46A358;
+}
+button {
+    position: relative;
+}
+
+.bx-right-arrow-alt {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 2px;
 }
